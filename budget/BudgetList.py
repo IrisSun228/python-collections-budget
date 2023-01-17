@@ -24,3 +24,4 @@ class BudgetList:
 
 def main():
     myBudgetList = BudgetList(1200)
+    expenses = Expense.Expenses()
