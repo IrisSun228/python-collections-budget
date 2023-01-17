@@ -32,6 +32,7 @@ def main():
                         number=100000, globals=globals()))
 
     fig, ax = plt.subplots()
+    labels = 'Necessary', 'Food', 'Unnecessary'
 
 
 if __name__ == "__main__":
