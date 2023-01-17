@@ -1,3 +1,6 @@
+from . import Expense
+
+
 class BudgetList:
 
     def __init__(self, budget):
@@ -20,4 +23,4 @@ class BudgetList:
 
 
 def main():
-    my_budget_list = BudgetList(1200)
+    myBudgetList = BudgetList(1200)
