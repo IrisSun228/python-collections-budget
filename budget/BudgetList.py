@@ -47,6 +47,8 @@ def main():
     for entry in myBudgetList:
         print(entry)
 
+    fig, ax = plt.subplots()
+
 
 if __name__ == '__main__':
     main()
